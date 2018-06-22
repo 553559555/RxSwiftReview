@@ -57,6 +57,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B4481FFF20DCE3D4001CF347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3AF3420DB7F9E00269D38 /* AppDelegate.swift */,
+				B4B3AF3B20DB7FA000269D38 /* Assets.xcassets */,
+				B4B3AF4020DB7FA100269D38 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B448200020DCE435001CF347 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3AF3820DB7F9E00269D38 /* Main.storyboard */,
+				B4B3AF3D20DB7FA100269D38 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		B448200120DCE478001CF347 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B448200220DCE484001CF347 /* ViewController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B448200220DCE484001CF347 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3AF3620DB7F9E00269D38 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		B4B3AF2820DB7F9E00269D38 = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +113,9 @@
 		B4B3AF3320DB7F9E00269D38 /* RxSwiftReview */ = {
 			isa = PBXGroup;
 			children = (
-				B4B3AF3420DB7F9E00269D38 /* AppDelegate.swift */,
-				B4B3AF3620DB7F9E00269D38 /* ViewController.swift */,
-				B4B3AF3820DB7F9E00269D38 /* Main.storyboard */,
-				B4B3AF3B20DB7FA000269D38 /* Assets.xcassets */,
-				B4B3AF3D20DB7FA100269D38 /* LaunchScreen.storyboard */,
-				B4B3AF4020DB7FA100269D38 /* Info.plist */,
+				B448200120DCE478001CF347 /* Class */,
+				B448200020DCE435001CF347 /* StoryBoard */,
+				B4481FFF20DCE3D4001CF347 /* Supporting Files */,
 			);
 			path = RxSwiftReview;
 			sourceTree = "<group>";
@@ -349,7 +381,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RxSwiftReview/Info.plist;
+				DEVELOPMENT_TEAM = X293M59WA5;
+				INFOPLIST_FILE = "RxSwiftReview/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,7 +401,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RxSwiftReview/Info.plist;
+				DEVELOPMENT_TEAM = X293M59WA5;
+				INFOPLIST_FILE = "RxSwiftReview/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
